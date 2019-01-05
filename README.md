@@ -10,6 +10,13 @@ This is a simple starter project for Python App Engine Standard.
 - webpack-dev-server (For development)
 
 ## Getting Started
-1. yarn install
-2. npm run dev
-3. Navigate to http://localhost:8082
+
+### main directory
+
+1. `pip install -r requirements.txt -t lib`
+
+### `client` directory
+
+1. `yarn install`
+2. `npm run dev`
+3. Navigate to `http://localhost:3000`
