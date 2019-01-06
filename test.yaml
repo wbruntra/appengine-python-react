@@ -6,17 +6,18 @@ handlers:
 - url: /favicon.ico
   static_files: favicon.ico
   upload: favicon.ico
-- url: /(.*)\.json
+
+- url: nice/(.*)\.json
   static_files: client/build/\1.json
   upload: client/build/(.*)\.json
-- url: /static
+- url: nice/static
   static_dir: client/build/static
-- url: /(.*)\.js
+- url: nice/(.*)\.js
   static_files: client/build/\1.js
   upload: client/build/(.*)\.js
-- url: /api(.*)
-  script: main.app
-- url: .*
+- url: nice/api(.*)
+  script: nice.app
+- url: nice/.*
   static_files: client/build/index.html
   upload: client/build/index.html
 

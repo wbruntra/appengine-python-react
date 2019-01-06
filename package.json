@@ -2,16 +2,16 @@
   "name": "gae-react-starter",
   "version": "1.0.0",
   "description": "This is a simple starter project for Python App Engine Standard.",
-  "main": "prettier.config.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
+    "build": "npm run build --prefix client",
     "dev": "concurrently \"npm run start --prefix client\" \"npm run server\"",
     "server": "dev_appserver.py ."
   },
   "keywords": [],
-  "author": "",
+  "author": "William Bruntrager",
   "license": "ISC",
   "dependencies": {
     "concurrently": "^4.1.0"
