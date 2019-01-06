@@ -6,7 +6,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "build": "npm run build --prefix client",
+    "setup": "pip install -r requirements.txt -t lib && cd client && yarn install",
+    "build": "cd client && npm run build",
     "dev": "concurrently \"npm run start --prefix client\" \"npm run server\"",
     "server": "dev_appserver.py ."
   },

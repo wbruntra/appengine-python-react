@@ -11,12 +11,12 @@ This is a simple starter project for Python App Engine Standard.
 
 ## Getting Started
 
-### main directory
-
-1. `pip install -r requirements.txt -t lib`
-
 ### `client` directory
 
 1. `yarn install`
+
+### main directory
+
+1. `npm run setup`
 2. `npm run dev`
-3. Navigate to `http://localhost:3000`
+3. Dev server at `http://localhost:3000`
