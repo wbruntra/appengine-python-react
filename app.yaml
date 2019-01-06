@@ -20,6 +20,10 @@ handlers:
   static_files: client/build/index.html
   upload: client/build/index.html
 
+libraries:
+- name: ssl
+  version: latest
+
 skip_files:
 - ^(.*/)?#.*#$
 - ^(.*/)?.*~$

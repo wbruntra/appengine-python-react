@@ -33,6 +33,10 @@ r"""
 
     result = result + \
 r"""
+libraries:
+- name: ssl
+  version: latest
+
 skip_files:
 - ^(.*/)?#.*#$
 - ^(.*/)?.*~$
